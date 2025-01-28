@@ -1,0 +1,58 @@
+    /* Общие стили для страницы */
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        background-color: #f4f4f4;
+        color: #333;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    /* Заголовок */
+    h1 {
+        margin-bottom: 20px;
+        color: #444;
+    }
+
+    /* Стили для ссылок */
+    a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        color: #007BFF;
+        border: 1px solid #ccc;
+        padding: 10px;
+        border-radius: 8px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        transition: background-color 0.3s, box-shadow 0.3s;
+        width: 200px; /* Задаем ширину для ссылок */
+        text-align: center;
+    }
+
+        /* Стили для изображений в ссылках */
+        a img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+
+        /* Ховер эффекты для ссылок */
+        a:hover {
+            background-color: #e9ecef;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        }
+
+    /* Центрирование страницы */
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
